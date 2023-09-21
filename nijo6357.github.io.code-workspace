@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "nijo6357.github.io",
+			"path": "."
+		},
+		{
+			"name": "html-midterm",
+			"path": "../../../Downloads/html-midterm"
+		},
+		{
+			"name": "html-midterm 2",
+			"path": "../../../Downloads/html-midterm 2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html-midterm"
+	}
+}
