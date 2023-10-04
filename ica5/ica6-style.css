@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ccc;
+  
+}
+
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+  
+  background-color: white;
+  border-top: 1mm solid red;
+  border-bottom: 1mm solid red;
+
+  
+}
+
+.gradient{
+  
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(203, 203, 203));
+}
+
+
+.img1 {background: url(bottom-image.png);
+position: absolute;
+bottom: 0;
+width:210mm;
+}
+
+.img2 {
+  background-image: url(top-image.png);
+  background-repeat: no-repeat;
+  width: 210mm;
+  
+}
+
+address {
+  position: absolute;
+  bottom: 8mm;
+  right: 20mm;
+}
+
+h1 {
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 44px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-image: url(logo-ica5.png);
+  box-shadow: 3px 3px 3px black;
+  border-radius: 50%;
+  
+}
+
+/* Your CSS below here */

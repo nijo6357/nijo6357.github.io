@@ -1,0 +1,27 @@
+html {
+    font-size: 100px;
+}
+
+
+
+
+.box {
+    border:2px dashed red;
+}
+
+.text {
+    border: 1rem dashed blue;
+    padding: 10rem;
+    background: #add8e6;
+    font-size: 1px
+    
+}
+
+
+/* ems and rems - based on the font size
+/* view width and height
+/* percentages */
+
+
+
+
