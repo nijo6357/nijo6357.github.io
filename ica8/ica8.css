@@ -1,0 +1,50 @@
+body{
+    background-color: khaki;
+}
+#box1{
+    width: 25vw;
+    height: 20vh;
+    background-color: indianred;
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+
+}
+
+#box1:hover {
+    background-color: purple;
+
+}
+
+
+
+#box2{
+    width: 25vw;
+    height:20vh;
+    position: relative;
+    background-color: orangered;
+    animation-name: box2move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box2move{
+    0% {
+        left:0px;
+        top:0px
+        
+    }
+
+    50% {
+        left:100px;
+        top:50px;
+        
+    }
+    100% {
+        left:0px;
+        top:0px;
+    }
+
+}
