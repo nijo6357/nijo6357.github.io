@@ -39,15 +39,29 @@ img{
     position: absolute;
     left:5vw;
     top:0;
+    animation-name: red-ballmove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
-#red-ball:hover {
+@keyframes red-ballmove {
+    0%{left:0px;
+    top:0px
+    
+}
+
+50% {
+    left:100px;
+    top:50px;
+    
+}
+100% {
+    left:0px;
+    top:0px;
+}
+}
+
     
 
-
-    width: 20vw;
-    height: 20vw;
-    background-color: white;
-}
 
 .bruh:hover {
     width: 100px;
