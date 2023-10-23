@@ -49,10 +49,9 @@ img{
     background-color: white;
 }
 
-.bruh {
+.bruh:hover {
     width: 100px;
-    transition: width 4s;
-    
-    
+    transition-property: width;
+    transition-duration: 4s;
 }
 
