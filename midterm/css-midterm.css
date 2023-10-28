@@ -33,7 +33,7 @@ body {
 
 .wideScreen {
     width: 80em;
-    margin-left: 1em;
+    margin-left: 2em;
     
 }
 
@@ -51,7 +51,7 @@ body {
 
 .wideScreen .showtime {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
 
 }
 
@@ -65,13 +65,28 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+#showHeaders {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .oct14-16 h4 {
     font-family: Arial, Helvetica, sans-serif
 }
 
+.nov4-6 {
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 2em;
+}
 
+.nov4-6 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 
-
+.wideShows {
+    display: flex;
+}
 
 
 /* NARROW SCREEN BELOW */
