@@ -1,10 +1,13 @@
-/* @media only screen and (max-width: 400px) {
-    .narrowScreen{
-        background-color: purple;
+  /* @media only screen and (max-width: 400px) {
+    body {
+        display: column;
+        column-count: 1;
     }
 } */
 
-/*@media only screen and (min-width: 401px) {
+
+
+/* @media only screen and (min-width: 401px) {
     .wideScreen{
         background-color: lightblue;
     } 
