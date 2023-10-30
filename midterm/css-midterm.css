@@ -18,13 +18,7 @@
 
 @media only screen and (min-width:401px) {
 
-img {
-    width:40em;
-    position: fixed;
-    top: -8.5em;
-    right: -13em;
 
-}
 .wideScreen h1 {
     font-size: 4em;
     font-family: Arial, Helvetica, sans-serif;
@@ -40,7 +34,7 @@ body {
 
 
 .wideScreen {
-    width: 80em;
+    width: 84.5em;
     margin-left: 2em;
     
 }
@@ -184,13 +178,7 @@ body {
 @media only screen and (max-width: 400px) {
     
 
-    img {
-        width:45em;
-        position: absolute;
-        top: -8.5em;
-        right: -13em;
     
-    }
     .wideScreen h1 {
         font-size: 2em;
         font-family: Arial, Helvetica, sans-serif;
