@@ -57,12 +57,49 @@ body {
 
 }
 
-#showHeaders {
+
+
+#showHeaders1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
 }
 
-#showHeaders1 {
+#showHeaders2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#showHeaders3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#showHeaders4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#showHeaders5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#showHeaders6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#showHeaders7 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#showHeaders8 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#showHeaders9 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
 }
@@ -221,17 +258,69 @@ body {
 
     
     
-    #showHeaders {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1em;
-        margin-top: 2em;
     
-    }
 
     #showHeaders1 {
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 0.2em;
     }
+
+    #showHeaders2 {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        margin-top: 2em;
+
+    }
+
+    #showHeaders3 {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        margin-top: 2em;
+    }
+
+    #showHeaders4 {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        margin-top: 2em;
+
+    }
+
+    #showHeaders5 {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        margin-top: 2em;
+
+    }
+
+    #showHeaders6 {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        margin-top: 2em;
+
+    }
+
+    #showHeaders7 {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        margin-top: 2em;
+
+    }
+
+    #showHeaders8 {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        margin-top: 2em;
+
+    }
+
+    #showHeaders9 {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        margin-top: 2em;
+
+    }
+
+    
     
     .oct14-16 {
         color:white;
@@ -268,11 +357,7 @@ body {
     }
     
     
-    .wideShows {
-        display: column;
-        
-        
-    }
+    
 
     .wideShows p {
         font-size: .6em;
