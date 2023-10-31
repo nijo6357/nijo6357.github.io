@@ -14,7 +14,7 @@ function changePic() {
 
 function hoverYes() {
     console.log("eee")
-    div.innerText = "WHY DID YOU HOVER???????"
+    div.innerText = "WHY DID YOU HOVER???????      YOU CANNOT UNDO WHAT YOUVE DONE!!!"
 }
 
 
