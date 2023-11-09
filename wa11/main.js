@@ -5,11 +5,11 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-const images = ["../wa11/pic1.jpg",
-                "../wa11/pic2.jpg",
-                "../wa11/pic3.jpg",
-                "../wa11/pic4.jpg",
-                "../wa11/pic5.jpg"]
+const images = ["../wa11/beans1.jpeg",
+                "../wa11/beans2.jpeg",
+                "../wa11/beans3.jpeg",
+                "../wa11/beans4.jpeg",
+                "../wa11/beans5.jpeg"]
 
 /* Declaring the alternative text for each image file */
 const altText = {
