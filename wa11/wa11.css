@@ -1,12 +1,14 @@
 h1 {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
+  font-size: 3em;
+  color: white;
 }
 
 body {
   width: 640px;
   margin: 0 auto;
-  background-color: grey;
+  background-color: rgb(165, 69, 42)
 }
 
 .full-img {
