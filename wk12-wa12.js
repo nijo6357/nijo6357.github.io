@@ -18,16 +18,13 @@ async function getQuote() {
         if (!response.ok) {
             throw Error(response.statusText);
         }
-        const json = await response.json();
+        json = await response.json();
         console.log(json)
         // JSON is a dictionary, which is like a list; we call specific pieces of information out based on the 'key' associated with that value
-        //displayQuote(json['question']);
-        answer = json['answer'];
+        displayQuote(json['setup']);
+        answer = json['punchline'];
         answerTxt.textContent = '';}
-        /*if (json['type']) {
-            body.style.backgroundColor = 
-                if hex code = in quotes
-        }*/ 
+        
 
         /* write paragraph for what I did*/ 
     
@@ -35,6 +32,27 @@ async function getQuote() {
         console.log(err);
         alert('Failed to fetch new quote');
     }
+
+
+    switch(json['type']) {
+        case "dad":
+            body.style.backgroundColor = "red";
+            break;
+        case "general":
+            body.style.backgroundColor = "blue";
+            break;
+        
+
+    }
+
+    
+
+    // for the code above i want to change the color of the body for each 'type'
+
+    /*if (json['type' = general]) {
+            body.style.backgroundColor = red
+                //if hex code = in quotes
+        }*/
 }
 
 // this function shows the question

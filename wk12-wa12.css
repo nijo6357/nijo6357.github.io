@@ -11,8 +11,8 @@ html {
   }
   
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    background-color: #c9bd95;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #95b3c9;
   }
   
   .app {
@@ -64,21 +64,26 @@ html {
   }
   
   .twitter {
-    background-color: #1da1f2;
+    background-color: #f21d1d;
     text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.01em;
   }
   
   .twitter:hover {
-    background-color: #1e7fbb;
+    background-color: rgb(151, 32, 19);
+    
   }
   
   .new-quote {
-    background-color: #4A2B0F;
+    background-color: #1d0f4a;
     margin-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .01em;
   }
   
   .new-quote:hover {
-    background-color: #6d3b0e;
+    background-color: rgb(54, 98, 149);
   }
   
   .new-quote:disabled {
