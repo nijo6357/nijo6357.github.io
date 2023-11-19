@@ -43,6 +43,7 @@ async function getQuote() {
             break;
         case "general":
             body.style.backgroundColor = "#95b3c9";
+            break;
         
             
 
