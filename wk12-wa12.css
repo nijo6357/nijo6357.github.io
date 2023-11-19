@@ -100,3 +100,9 @@ html {
       font-size: 18px;
     }
   }
+
+  .explanation {
+    position: absolute;
+    bottom: 50px;
+    left: 75px;
+  }

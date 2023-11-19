@@ -38,9 +38,11 @@ async function getQuote() {
         case "dad":
             body.style.backgroundColor = "red";
             break;
-        case "general":
+        case "programming":
             body.style.backgroundColor = "blue";
             break;
+        case "general":
+            body.style.backgroundColor = "#95b3c9";
         
 
     }
