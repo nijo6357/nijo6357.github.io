@@ -44,6 +44,7 @@ async function getQuote() {
         case "general":
             body.style.backgroundColor = "#95b3c9";
         
+            
 
     }
 
