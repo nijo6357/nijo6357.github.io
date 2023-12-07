@@ -6,10 +6,10 @@
     <title>JS Final</title>
     <link rel="stylesheet" href="js-final.css">
 </head>
-<body onload="load();">
+<body>
     <div>
-        <p>Please Enter Your Phone Numbers Below</p>
-        <input id="tbInput" type="text" />
+        <p>Please Enter Your Phone Number Below</p>
+        <article id="tbInput"></article>
     </div>
 
     
@@ -17,20 +17,22 @@
     <div id="flyingNumbers">
 
     
-            <button class="button">0</button>
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
-            <button class="button">4</button>
-            <button class="button">5</button>
-            <button class="button">6</button>
-            <button class="button">7</button>
-            <button class="button">8</button>
-            <button class="button">9</button>
+            <button id="zero">0</button>
+            <button id="one">1</button>
+            <button id="two">2</button>
+            <button id="three">3</button>
+            <button id="four">4</button>
+            <button id="five">5</button>
+            <button id="six">6</button>
+            <button id="seven">7</button>
+            <button id="eight">8</button>
+            <button id="nine">9</button>
 
-            <input id="btnDel" type="button" value="Backspace" onclick="del();" />
+            <input id="btnDel" type="button" value="Clear Form" onclick="del();" />
     
     </div>
+
+    <input id="submit" type="button" value="Submit">
 
     
 
