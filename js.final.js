@@ -5,6 +5,10 @@ function del() {
     input.innerHTML = ""
 }
 
+function submit() {    
+    input.innerHTML = ""
+}
+
 
 
 
@@ -37,6 +41,10 @@ zero.addEventListener("click", enterZero)
 function enterZero () {
     console.log("zero");
     input.innerHTML+="0";
+
+}
+
+function moveZero () {
 
 }
 
@@ -105,9 +113,5 @@ function enterNine () {
 }
 
 
-
-
-
-
-
+// to get buttons to move
 
