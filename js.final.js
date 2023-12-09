@@ -139,6 +139,7 @@ var x8 = 0;
 var x9 = 0;
 var x10 = 0;
 var x11 = 0;
+var x12 = 0;
 
 var interval1 = setInterval(function(){
     x1++;
@@ -259,6 +260,16 @@ var interval11 = setInterval(function(){
         }
     }
 },20);
+
+/* var interval12 = setInterval(function(){
+    if(startNext){
+        x12++;
+        button4.style.right = x12 + "px";
+        if(x12 >= window.innerWidth){
+            return clearInterval(interval12);
+        }
+    }
+},20); */
 
 
 
