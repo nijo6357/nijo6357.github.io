@@ -87,5 +87,25 @@ p {
     color: white;
 }
 
+h1 {
+    font-size: 5em;
+    position: fixed;
+}
+
+h2 {
+    position: absolute;
+    top: 55em;
+    color: rgb(255, 255, 255);
+}
+
+article {
+    border: 1em;
+    
+}
+
+#box {
+    width: 5em;
+    border-color:red;
+}
 
 
