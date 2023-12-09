@@ -132,7 +132,7 @@ text-decoration: none;
 }
 
 h5 {
-    position:fixed;
+    position:absolute;
     top:-0.5em;
     font-size: 4em;
     left:3em;
