@@ -98,6 +98,12 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
+h3 {
+    font-size: 3em;
+    position:fixed;
+    top:5em;
+}
+
 article {
     border: 1em;
     
@@ -106,6 +112,12 @@ article {
 #box {
     width: 5em;
     border-color:red;
+}
+
+h4 {
+    position: absolute;
+    top:50em;
+    color: white;
 }
 
 
