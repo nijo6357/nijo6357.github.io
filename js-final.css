@@ -1,40 +1,91 @@
-#zero {
-    
-
+body {
+    background-image: url(gridOuch.webp);
 }
 
+#zero {
+    position: absolute;
+    right:56em;
+    
+    
+/* position absolute*/
+}
+
+/* div stle top */
+
+/* use animations and adjust y positions like we did for css animations */ 
+
 #one {
+    position: absolute;
+    right: 40em;
 
 }
 
 #two {
+    position: absolute;
+    right: 60em;
 
 }
 
 #three {
+    position: absolute;
+    right: 65em;
 
 }
 
 #four {
+    position: absolute;
+    right: 37em;
 
 }
 
 #five {
+    position: absolute;
+    right: 80em;
+    top: 30em;
+    
 
 }
 
 #six {
+    position: absolute;
+    right: 85em;
 
 }
 
 #seven {
+    position: absolute;
+    right: 70em;
 
 }
 
 #eight {
+    position: absolute;
+    right: 10em;
 
 }
 
 #nine {
+    position: absolute;
+    right: 87em;
 
 }
+
+#btnDel {
+    position: absolute;
+    top:30em;
+    right:60em;
+}
+
+#submit {
+    position: absolute;
+    top:29em;
+    right:60em;
+}
+
+p {
+    font-size: 2em;
+    color: white;
+}
+
+
+

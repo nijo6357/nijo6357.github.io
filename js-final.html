@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-        <p>Please Enter Your Phone Number Below</p>
+        <p id="enter">Please Enter Your Phone Number Below</p>
         <article id="tbInput"></article>
     </div>
 
@@ -18,21 +18,25 @@
 
     
             <button id="zero">0</button>
-            <button id="one">1</button>
-            <button id="two">2</button>
-            <button id="three">3</button>
-            <button id="four">4</button>
-            <button id="five">5</button>
-            <button id="six">6</button>
-            <button id="seven">7</button>
-            <button id="eight">8</button>
-            <button id="nine">9</button>
+            <div id="one"><button>1</button></div>
+            <div id="two"><button>2</button></div>
+            <div id="three"><button>3</button></div>
+            <div id="four"><button>4</button></div>
+            <div id="five"><button>5</button></div>
+            <div id="six"><button>6</button></div>
+            <div id="seven"><button>7</button></div>
+            <div id="eight"><button>8</button></div>
+            <div id="nine"><button>9</button></div>
 
-            <input id="btnDel" type="button" value="Clear Form" onclick="del();" />
+            
     
     </div>
 
+    <input id="btnDel" type="button" value="Clear Form" onclick="del();" />
+
     <input id="submit" type="button" value="Submit" onclick="submit()">
+
+    <a href="github page link"><button id="tryAgain">Try Again :)</button></a>
 
     
 
