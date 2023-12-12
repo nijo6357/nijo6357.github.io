@@ -10,7 +10,7 @@ body {
     position: absolute;
     right:56em;
     animation-name: zeromove;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     
     
@@ -25,6 +25,9 @@ body {
         top: 37em;
 
     }
+    87% {
+        right:46em;
+    }
     100% {
         right: 56em;
         top: 7em;
@@ -35,7 +38,7 @@ body {
 
 /* use animations and adjust y positions like we did for css animations */ 
 
- button {
+button {
     width: 2em;
     height: 2em;
     font-size: 1em;
@@ -48,7 +51,7 @@ body {
     position: absolute;
     right: 40em;
     animation-name: onemove;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 
 } 
@@ -126,9 +129,36 @@ body {
     position: absolute;
     right: 37em;
     animation-name: fourmove;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 
+}
+
+@keyframes fourmove {
+    0% {
+        right:37em;
+        top:20em;
+    }
+    10% {
+        top:25em;
+        right:30em;
+    }
+    25% {
+        top:30em;
+        right:20em;
+    }
+    50% {
+        top: 10em;
+        right:30em;
+    }
+    75% {
+        top: 5em;
+        right:17em;
+    }
+    100% {
+        right:37em;
+        top:20em;
+    }
 }
 
 #five {
@@ -142,6 +172,33 @@ body {
 
 }
 
+@keyframes fivemove {
+    0% {
+        right:80em;
+        top:37em;
+    }
+    17% {
+        right:64.3em;
+        top:30em;
+    }
+    28% {
+        right:70em;
+        top:27em;
+    }
+    50% {
+        right:30em;
+        top:23em;
+    }
+    79% {
+        right: 77em;
+        top:50em;
+    }
+    100% {
+        right:80em;
+        top:37em;
+    }
+}
+
 #six {
     position: absolute;
     right: 85em;
@@ -149,6 +206,33 @@ body {
     animation-duration: 3s;
     animation-iteration-count: infinite;
 
+}
+
+@keyframes sixmove {
+    0%{
+        right:85em;
+        top:22.789em;
+    }
+    17% {
+        right:64.2em;
+        top:10em;
+    }
+    28% {
+        right:72.6em;
+        top:17.888em;
+    }
+    50% {
+        right:42em;
+        top: 25em;
+    }
+    77% {
+        right:55em;
+        top:46.7em;
+    }
+    100% {
+        right:85em;
+        top:22.789em;
+    }
 }
 
 #seven {
@@ -160,23 +244,89 @@ body {
 
 }
 
+@keyframes sevenmove {
+    0% {
+        right:70em;
+        top:45em;
+    }
+    19.4% {
+        right:40em;
+        top:27.7em;
+    }
+    37% {
+        right:65.4em;
+        top:5em;
+    }
+    63% {
+        right:20em;
+        top:37.3em;
+    }
+    89% {
+        right: 52.77em;
+        top:29.999em;
+    }
+    100% {
+        right:70em;
+        top:45em;
+    }
+}
+
 #eight {
     position: absolute;
     right: 10em;
     animation-name: eightmove;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
+    
 
+}
+@keyframes eightmove {
+    0%{
+        right:10em;
+        top:10em
+
+    }
+    23% {
+        right:40em;
+        top:5em;
+    }
+    50% {
+        right:8em;
+        top:20em;
+    }
+    79% {
+        right:86.8em;
+        top:27em;
+    }
+    100% {
+        right:10em;
+        top:10em
+    }
 }
 
 #nine {
     position: absolute;
     right: 87em;
     animation-name: ninemove;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 
 }
+
+/*@keyframes ninemove {
+    0% {
+        right:87em;
+        top:10em;
+    }
+    50% {
+        right:5em;
+        top:30em;
+    }
+    100% {
+        right:87em;
+        top:10em;
+    }
+}*/
 
 #btnDel {
     position: absolute;
@@ -219,7 +369,7 @@ body {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
-@keyframes submitmove {
+/* @keyframes submitmove {
     0% {
         right: 20em;
         top: 12.2em;
@@ -242,19 +392,20 @@ body {
         top: 12.2em;
     }
 
-}
+} */
 
 p {
     font-size: 2em;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-color: red;
+    
 }
 
-h1 {
+/*h1 {
     font-size: 5em;
     position: fixed;
-}
+}*/
 
 h2 {
     position: absolute;
@@ -274,7 +425,7 @@ article {
 }
 
 #box {
-    width: 5em;
+    width: 10em;
     border-color:red;
     background-color: white;
 }
@@ -303,11 +454,9 @@ h5 {
     left:3em;
 }
 
-#tbInput {
-    border-color: red;
-    border-width: 5em;
-    border-radius: .5em;
-}
+/* quesions
+How do I get my article to show the box before I hit a number?
+I am struggling with getting my alert to trigger for when the number of digits is correct
 
 
 

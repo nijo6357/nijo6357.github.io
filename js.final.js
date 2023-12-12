@@ -1,3 +1,5 @@
+const input = document.querySelector("#tbInput")
+
 function del() {
      /* var tbInput = document.getElementById("tbInput");
     tbInput.value = tbInput.value.substr(0, tbInput.value.length - 1);
@@ -6,8 +8,15 @@ function del() {
 }
 
 function submit() {    
-    input.innerHTML = ""
-    alert("Your phone number has entered the abyss...")
+    
+    if (input.length == 2) {
+        alert("Thank you for your phone number, I will sell it to data companies :)");
+    }
+    else  {
+        alert ("THATS NOT THE CORRECT NUMBER OF DIGITS FOR A PHONE NUMBER! TRY AGAIN!");
+        input.innerHTML = ""
+    }
+    
     
 }
 
@@ -19,7 +28,8 @@ function submit() {
     buttonInput.value = 
 } */
 
-const input = document.querySelector("#tbInput")
+
+
 
 
 
@@ -46,8 +56,8 @@ function enterZero () {
 
 }
 
-function moveZero () {
-
+function numLength (){
+    article
 }
 
 one.addEventListener("click", enterOne)
