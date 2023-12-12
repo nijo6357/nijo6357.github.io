@@ -7,6 +7,7 @@ function del() {
 
 function submit() {    
     input.innerHTML = ""
+    alert("Your phone number has entered the abyss...")
 }
 
 
