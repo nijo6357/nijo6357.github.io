@@ -121,6 +121,7 @@ function enterNine () {
 I adjusted speed, direction, variables, added many more instances*/
 
 
+/*
 var button1 = document.getElementById("zero")
 var button2 = document.getElementById("one");
 var button3 = document.getElementById("two");
@@ -149,8 +150,8 @@ var x12 = 0;
 
 var interval1 = setInterval(function(){
     x1++;
-    button1.style.top = x1 + "px";
-    if(x1>= window.innerWidth){
+    button1.style.left = x1 + "px";
+    if(x1>= window.Width){
         startNext = true;
         return clearInterval(interval1);
         
@@ -276,6 +277,7 @@ var interval11 = setInterval(function(){
         }
     }
 },20); */
+
 
 
 

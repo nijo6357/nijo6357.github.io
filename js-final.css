@@ -1,47 +1,143 @@
 body {
     background-image: url(gridOuch.webp);
+    max-width: 1440px;
+    max-width: 700px;
 }
+
+
 
 #zero {
     position: absolute;
     right:56em;
+    animation-name: zeromove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     
     
 /* position absolute*/
+}
+@keyframes zeromove {
+    0% {
+        right: 56em;
+        top: 7em;
+    }
+    50% {
+        top: 37em;
+
+    }
+    100% {
+        right: 56em;
+        top: 7em;
+    }
 }
 
 /* div stle top */
 
 /* use animations and adjust y positions like we did for css animations */ 
 
+ button {
+    width: 2em;
+    height: 2em;
+    font-size: 1em;
+   
+    
+    border-radius: 2em;
+}
+
 #one {
     position: absolute;
     right: 40em;
+    animation-name: onemove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 
+} 
+
+@keyframes onemove {
+    0% {
+        right: 40em;
+        top: 10em;
+    }
+    50% {
+        right:12em;
+        top:20em;
+        
+    }
+    100% {
+        right: 40em;
+        top: 10em;
+    }
 }
 
 #two {
     position: absolute;
     right: 60em;
+    animation-name: twomove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 
+
+}
+
+@keyframes twomove {
+    0% {
+        right: 60em;
+        top: 20em;
+    }
+    50% {
+        right:1em;
+        top:12em;
+        
+    }
+    100% {
+        right: 60em;
+        top: 20em;
+    }
 }
 
 #three {
     position: absolute;
     right: 65em;
+    animation-name: threemove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 
+}
+
+@keyframes threemove {
+    0% {
+        right: 65em;
+        top: 30em;
+    }
+    50% {
+        right:0em;
+        top:30em
+    }
+
+    100% {
+        
+        right: 65em;
+        top: 30em;
+    
+    }
 }
 
 #four {
     position: absolute;
     right: 37em;
+    animation-name: fourmove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 
 }
 
 #five {
     position: absolute;
     right: 80em;
-    top: 30em;
+    animation-name: fivemove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
     
 
 }
@@ -49,42 +145,110 @@ body {
 #six {
     position: absolute;
     right: 85em;
+    animation-name: sixmove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 
 }
 
 #seven {
     position: absolute;
     right: 70em;
+    animation-name: sevenmove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 
 }
 
 #eight {
     position: absolute;
     right: 10em;
+    animation-name: eightmove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 
 }
 
 #nine {
     position: absolute;
     right: 87em;
+    animation-name: ninemove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 
 }
 
 #btnDel {
     position: absolute;
-    top:30em;
-    right:60em;
+    top:5em;
+    right:-5em;
+    width: 25em;
+    height:10em;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-name: clearmove;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clearmove {
+    0% {
+        right: -5em;
+        top: 4em;
+    }
+    50% {
+        right:15em;
+        top:4em;
+        
+    }
+    100% {
+        right: -5em;
+        top: 4em;
+    }
 }
 
 #submit {
     position: absolute;
-    top:29em;
-    right:60em;
+    top:12.2em;
+    right:20em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 2em;
+    width:4em;
+    font-size: 2em;
+    animation-name: submitmove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes submitmove {
+    0% {
+        right: 20em;
+        top: 12.2em;
+    }
+    25% {
+        right: 30em;
+        top:20em;
+    }
+    50% {
+        right:10em;
+        top:4em;
+        
+    }
+    75% {
+        right: 40em;
+        top: 17em;
+    }
+    100% {
+        right:20em;
+        top: 12.2em;
+    }
+
 }
 
 p {
     font-size: 2em;
     color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: red;
 }
 
 h1 {
@@ -112,6 +276,7 @@ article {
 #box {
     width: 5em;
     border-color:red;
+    background-color: white;
 }
 
 h4 {
