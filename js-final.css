@@ -138,5 +138,11 @@ h5 {
     left:3em;
 }
 
+#tbInput {
+    border-color: red;
+    border-width: 5em;
+    border-radius: .5em;
+}
+
 
 

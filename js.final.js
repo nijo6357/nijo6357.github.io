@@ -8,6 +8,7 @@ function del() {
 function submit() {    
     input.innerHTML = ""
     alert("Your phone number has entered the abyss...")
+    
 }
 
 
@@ -115,6 +116,10 @@ function enterNine () {
 
 
 // to get buttons to move
+
+/* I got help from this website with making buttons move: https://stackoverflow.com/questions/72053970/how-to-make-a-button-move
+I adjusted speed, direction, variables, added many more instances*/
+
 
 var button1 = document.getElementById("zero")
 var button2 = document.getElementById("one");
