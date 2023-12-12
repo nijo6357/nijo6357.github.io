@@ -9,7 +9,7 @@ function del() {
 
 function submit() {    
     
-    if (input.length == 2) {
+    if (length == 2) {
         alert("Thank you for your phone number, I will sell it to data companies :)");
     }
     else  {
