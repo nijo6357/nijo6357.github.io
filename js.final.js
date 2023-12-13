@@ -17,7 +17,6 @@ function submit() {
         input.innerHTML = ""
     }
     
-    
 }
 
 
