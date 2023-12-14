@@ -400,6 +400,7 @@ p {
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-color: red;
+    width:50em;
     
 }
 
