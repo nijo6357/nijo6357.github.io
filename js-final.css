@@ -1,7 +1,11 @@
+
+
 body {
     background-image: url(gridOuch.webp);
     max-width: 1440px;
     max-width: 700px;
+    
+    
 }
 
 
@@ -12,6 +16,7 @@ body {
     animation-name: zeromove;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    
     
     
 /* position absolute*/
@@ -460,9 +465,7 @@ h5 {
     left:10em;
 }
 
-/* quesions
-How do I get my article to show the box before I hit a number?
-I am struggling with getting my alert to trigger for when the number of digits is correct
+
 
 
 

@@ -2,13 +2,11 @@ const input = document.querySelector("#tbInput")
 input.innerHTML = "";
 
 function del() {
-     /* var tbInput = document.getElementById("tbInput");
-    tbInput.value = tbInput.value.substr(0, tbInput.value.length - 1);
-    console.log("backspace") */
+    
     input.innerHTML = ""
 }
 
-//let numberBox = document.getElementById("tbInput") 
+
 
 
 
@@ -33,10 +31,6 @@ function submit() {
 
 
 
- /* function type () {
-    var buttonInput = document.getElementsById ("tbInput");
-    buttonInput.value = 
-} */
 
 
 
@@ -79,8 +73,8 @@ function enterOne () {
 two.addEventListener("click", enterTwo)
 
 function enterTwo () {
-    //console.log("two")
-    input.innerHTML+=2;
+    console.log("two")
+    input.innerHTML+="2";
 }
 
 three.addEventListener("click", enterThree)
@@ -131,172 +125,5 @@ function enterNine () {
     console.log("nine")
     input.innerHTML+="9";
 }
-
-
-// to get buttons to move
-
-/* I got help from this website with making buttons move: https://stackoverflow.com/questions/72053970/how-to-make-a-button-move
-I adjusted speed, direction, variables, added many more instances*/
-
-
-/*
-var button1 = document.getElementById("zero")
-var button2 = document.getElementById("one");
-var button3 = document.getElementById("two");
-var button4 = document.getElementById("three");
-var button5 = document.getElementById("four");
-var button6 = document.getElementById("five");
-var button7 = document.getElementById("six");
-var button8 = document.getElementById("seven");
-var button9 = document.getElementById("eight");
-var button10 = document.getElementById("nine");
-
-var startNext = true;
-
-var x1 = 0;
-var x2 = 0;
-var x3 = 0;
-var x4 = 0;
-var x5 = 0;
-var x6 = 0;
-var x7 = 0;
-var x8 = 0;
-var x9 = 0;
-var x10 = 0;
-var x11 = 0;
-var x12 = 0;
-
-var interval1 = setInterval(function(){
-    x1++;
-    button1.style.left = x1 + "px";
-    if(x1>= window.Width){
-        startNext = true;
-        return clearInterval(interval1);
-        
-    }
-},10);
-
-var interval2 = setInterval(function(){
-    if(startNext){
-        x2++;
-        button2.style.top = x2 + "px";
-        if(x2 >= window.innerWidth){
-            return clearInterval(interval2);
-        }
-    }
-},8);
-
-var interval3 = setInterval(function(){
-    if(startNext){
-        x3++;
-        button3.style.top = x3 + "px";
-        if(x3 >= window.innerWidth){
-            return clearInterval(interval3);
-        }
-    }
-},5);
-
-var interval4 = setInterval(function(){
-    if(startNext){
-        x4++;
-        button4.style.top = x4 + "px";
-        if(x4 >= window.innerWidth){
-            return clearInterval(interval4);
-        }
-    }
-},37);
-
-var interval5 = setInterval(function(){
-    if(startNext){
-        x5++;
-        button5.style.top = x5 + "px";
-        if(x5 >= window.innerWidth){
-            return clearInterval(interval5);
-        }
-    }
-},20);
-
-var interval6 = setInterval(function(){
-    if(startNext){
-        x6++;
-        button6.style.left = x6 + "px";
-        if(x6 >= window.innerWidth){
-            return clearInterval(interval6);
-        }
-    }
-},8.777);
-
-var interval7 = setInterval(function(){
-    if(startNext){
-        x7++;
-        button6.style.top = x7 + "px";
-        if(x7 >= window.innerWidth){
-            return clearInterval(interval7);
-        }
-    }
-},7);
-
-var interval8 = setInterval(function(){
-    if(startNext){
-        x8++;
-        button7.style.top = x8 + "px";
-        if(x8 >= window.innerWidth){
-            return clearInterval(interval8);
-        }
-    }
-},13);
-
-var interval9 = setInterval(function(){
-    if(startNext){
-        x9++;
-        button8.style.top = x9 + "px";
-        if(x9 >= window.innerWidth){
-            return clearInterval(interval9);
-        }
-    }
-},15);
-
-var interval10 = setInterval(function(){
-    if(startNext){
-        x10++;
-        button9.style.top = x10 + "px";
-        if(x10 >= window.innerWidth){
-            return clearInterval(interval10);
-        }
-    }
-},10);
-
-var interval11 = setInterval(function(){
-    if(startNext){
-        x11++;
-        button10.style.top = x11 + "px";
-        if(x11 >= window.innerWidth){
-            return clearInterval(interval11);
-        }
-    }
-},10);
-
-var interval11 = setInterval(function(){
-    if(startNext){
-        x11++;
-        button10.style.right = x11 + "px";
-        if(x11 >= window.innerWidth){
-            return clearInterval(interval11);
-        }
-    }
-},20);
-
-/* var interval12 = setInterval(function(){
-    if(startNext){
-        x12++;
-        button4.style.right = x12 + "px";
-        if(x12 >= window.innerWidth){
-            return clearInterval(interval12);
-        }
-    }
-},20); */
-
-
-
 
 
