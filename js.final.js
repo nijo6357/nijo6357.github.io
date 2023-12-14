@@ -21,6 +21,7 @@ function submit() {
     console.log(Length)
     if (Length.length == 10) {
         alert("Thank you for your phone number, I will sell it to data companies :)");
+        input.innerHTML = ""
     }
     else  {
         alert ("THATS NOT THE CORRECT NUMBER OF DIGITS FOR A PHONE NUMBER! TRY AGAIN!");

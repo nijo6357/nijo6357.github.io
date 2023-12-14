@@ -39,9 +39,10 @@ body {
 /* use animations and adjust y positions like we did for css animations */ 
 
 button {
-    width: 2em;
-    height: 2em;
-    font-size: 1em;
+    width: 2.5em;
+    height: 2.5em;
+    font-size: 1.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
     
     border-radius: 2em;
@@ -421,13 +422,15 @@ h3 {
 
 article {
     border: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
     
     
 }
 
 #box {
     width: 10em;
-    height:1em;
+    height:1.7em;
     border-color:red;
     background-color: white;
 }
