@@ -82,7 +82,7 @@ button {
 
 }
 
-/*@keyframes twomove {
+@keyframes twomove {
     0% {
         right: 60em;
         top: 20em;
@@ -96,7 +96,7 @@ button {
         right: 60em;
         top: 20em;
     }
-} */ 
+} 
 
 #three {
     position: absolute;
@@ -369,7 +369,7 @@ button {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
-/* @keyframes submitmove {
+ @keyframes submitmove {
     0% {
         right: 20em;
         top: 12.2em;
@@ -392,7 +392,7 @@ button {
         top: 12.2em;
     }
 
-} */ 
+} 
 
 p {
     font-size: 2em;
@@ -422,10 +422,12 @@ h3 {
 article {
     border: 1em;
     
+    
 }
 
 #box {
     width: 10em;
+    height:1em;
     border-color:red;
     background-color: white;
 }

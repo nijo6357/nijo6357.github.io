@@ -1,4 +1,5 @@
 const input = document.querySelector("#tbInput")
+input.innerHTML = "";
 
 function del() {
      /* var tbInput = document.getElementById("tbInput");
@@ -7,9 +8,18 @@ function del() {
     input.innerHTML = ""
 }
 
-function submit() {    
-    
-    if (length == 2) {
+//let numberBox = document.getElementById("tbInput") 
+
+
+
+
+
+function submit() {  
+    let Length = input.textContent
+    console.log(typeof Length);
+  
+    console.log(Length)
+    if (Length.length == 10) {
         alert("Thank you for your phone number, I will sell it to data companies :)");
     }
     else  {
@@ -55,9 +65,7 @@ function enterZero () {
 
 }
 
-function numLength (){
-    article
-}
+
 
 one.addEventListener("click", enterOne)
 
@@ -70,8 +78,8 @@ function enterOne () {
 two.addEventListener("click", enterTwo)
 
 function enterTwo () {
-    console.log("two")
-    input.innerHTML+="2";
+    //console.log("two")
+    input.innerHTML+=2;
 }
 
 three.addEventListener("click", enterThree)
